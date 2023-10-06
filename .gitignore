@@ -1,48 +1,49 @@
-# Wordpress - ignore core, configuration, examples, uploads and logs.
-# https://github.com/github/gitignore/blob/main/WordPress.gitignore
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-# Core
-#
-# Note: if you want to stage/commit WP core files
-# you can delete this whole section/until Configuration.
-/wp-admin/
-/wp-content/index.php
-/wp-content/languages
-/wp-content/plugins/index.php
-/wp-content/themes/index.php
-/wp-includes/
-/index.php
-/license.txt
-/readme.html
-/wp-*.php
-/xmlrpc.php
+# Folder config file
+Desktop.ini
 
-# Configuration
-wp-config.php
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
 
-# Example themes
-/wp-content/themes/twenty*/
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
 
-# Example plugin
-/wp-content/plugins/hello.php
+# Windows shortcuts
+*.lnk
 
-# Uploads
-/wp-content/uploads/
+# =========================
+# Operating System Files
+# =========================
 
-# Log files
-*.log
+# OSX
+# =========================
 
-# htaccess
-/.htaccess
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# All plugins
-#
-# Note: If you wish to whitelist plugins,
-# uncomment the next line
-#/wp-content/plugins
+# Thumbnails
+._*
 
-# All themes
-#
-# Note: If you wish to whitelist themes,
-# uncomment the next line
-#/wp-content/themes
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
