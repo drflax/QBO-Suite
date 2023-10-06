@@ -27,7 +27,7 @@ function wcqbi_plugin_settings_page() {
 	?>
 
 	<div class="wrap">
-		<h1>QuickBooks Connect</h1>
+		<h1>QuickBooks Invoices</h1>
 
 		<form method="post" action="options.php">
 			<?php settings_fields( 'wcqbi-plugin-settings-group' ); ?>
@@ -61,6 +61,7 @@ function wcqbi_plugin_settings_page() {
 			<?php submit_button(); ?>
 		</form>
 		
+		<h1>QuickBooks Inventory</h1>
 		<form id="plugin-settings" action="Config.php" method="post">
     		<div class="form-group">
     		    <label for="storeURL" >WooCommerce Website URL:<span>*</span></label>
