@@ -1,2 +1,3 @@
 # QBO-Suite
-Woocommerce  &lt;-> Quickbooks API Plugin
+
+Woocommerce  <-> Quickbooks API Plugin
