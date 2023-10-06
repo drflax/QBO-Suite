@@ -34,7 +34,7 @@
 <div class="container">
     <form id="plugin-settings" action="Config.php" method="post">
     <div class="form-group">
-        <label for="storeURL" >Website URL:<span>*</span></label>
+        <label for="storeURL" >WooCommerce Website URL:<span>*</span></label>
         <input type="text" placeholder="http://www.example.com" class="form-control" name="storeURL" id="woo-url" required="required" aria-required="true">
     </div>
     <div class="form-group">
