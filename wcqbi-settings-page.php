@@ -60,7 +60,26 @@ function wcqbi_plugin_settings_page() {
 			<input type="hidden" name="wcqbi_qbo[scope]" value="com.intuit.quickbooks.accounting" />
 			<?php submit_button(); ?>
 		</form>
-
+		
+		<form id="plugin-settings" action="Config.php" method="post">
+    		<div class="form-group">
+    		    <label for="storeURL" >WooCommerce Website URL:<span>*</span></label>
+    		    <input type="text" placeholder="http://www.example.com" class="form-control" name="storeURL" id="woo-url" required="required" aria-required="true">
+    		</div>
+    		<div class="form-group">
+    		    <label for="ck" class="fb-text-label">WooCommerce Consumer Key</label>
+    		    <input type="text" class="form-control" name="ck" id="ck"></div>
+    		<div class="form-group">
+    		    <label for="cs">WooCommerce Consumer Secret</label>
+    		    <input type="text" class="form-control" name="cs" id="cs">
+    		</div>
+    		<div class="form-group">
+    		    <input type="submit" class="btn btn-primary" name="savekey" style="primary" id="savekey" onclick=""></input>
+    		</div>
+    
+    
+		</form>
+		
 		<form action="/wp-admin/admin-post.php" method="post">
 			<input type="hidden" name="action" value="wcqbi_qbo_connect">
 			<input type="hidden" name="wcqbi_connection_status" value="<?php echo esc_attr( get_option( 'wcqbi_connection_status', false ) ); ?>">
